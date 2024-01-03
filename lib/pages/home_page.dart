@@ -1,5 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import '../utils/utils.dart';
+import '../widget/app_bar_title_widget.dart';
+import '../widget/gap.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -7,12 +10,21 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: DanaCloneTheme.whiteBg,
       appBar: AppBar(
-        title: const Text('Home Page'),
-      ),
-      body: const Center(
-        child: Text('Home Page'),
-      ),
+          systemOverlayStyle: const SystemUiOverlayStyle(
+            statusBarColor: Colors.transparent,
+          ),
+          elevation: 0,
+          titleSpacing: 0,
+          title: const AppBarTitleWidget(),
+          actions: [
+            Image(
+              image: AssetLocations.iconLocation('message'),
+              width: 35,
+            ),
+            const Gap(h: 16),
+          ]),
     );
   }
 }
