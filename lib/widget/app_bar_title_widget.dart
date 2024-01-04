@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../utils/asset_locations.dart';
+import 'add_card_widget_animation.dart';
 import 'gap.dart';
 
 class AppBarTitleWidget extends StatelessWidget {
@@ -26,6 +27,8 @@ class AppBarTitleWidget extends StatelessWidget {
             '0',
             style: primaryTextTheme.headline5,
           ),
+          const Gap(),
+          const SizedBox(height: 30, child: AddCardWidgetAnimation()),
         ],
       ),
     );
