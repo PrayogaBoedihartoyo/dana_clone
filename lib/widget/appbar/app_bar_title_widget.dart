@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../utils/asset_locations.dart';
+import '../../utils/asset_locations.dart';
 import 'add_card_widget_animation.dart';
-import 'gap.dart';
+import '../gap.dart';
 
 class AppBarTitleWidget extends StatelessWidget {
   const AppBarTitleWidget({super.key});
