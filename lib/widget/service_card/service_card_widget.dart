@@ -1,4 +1,6 @@
 import 'package:dana_clone/utils/asset_locations.dart';
+import 'package:dana_clone/widget/gap.dart';
+import 'package:dana_clone/widget/service_card/service_card_icon.dart';
 import 'package:flutter/material.dart';
 
 class ServiceCardWidget extends StatelessWidget {
@@ -20,7 +22,7 @@ class ServiceCardWidget extends StatelessWidget {
       child: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(40, 35, 16, 10),
+            padding: const EdgeInsets.fromLTRB(40, 35, 16, 20),
             child: Row(
               children: [
                 Image(
@@ -39,6 +41,34 @@ class ServiceCardWidget extends StatelessWidget {
                 ElevatedButton(
                     onPressed: () {},
                     child: Text('Serbu', style: primaryTextTheme.button)),
+              ],
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.only(left: 22, right: 22, bottom: 22),
+            child: Column(
+              children: [
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.baseline,
+                  textBaseline: TextBaseline.ideographic,
+                  children: [
+                    ServiceCardIcon(iconName: 'electricity', iconTitle: 'Electricity'),
+                    ServiceCardIcon(iconName: 'rewards', iconTitle: 'Voucher A+ Rewards'),
+                    ServiceCardIcon(iconName: 'emas', iconTitle: 'eMAS'),
+                    ServiceCardIcon(iconName: 'goals', iconTitle: 'DANA Goals'),
+                  ],
+                ),
+                Gap(v: 10),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.baseline,
+                  textBaseline: TextBaseline.ideographic,
+                  children: [
+                    ServiceCardIcon(iconName: 'item_digital', iconTitle: 'Item Digital', iconSize: 25),
+                    ServiceCardIcon(iconName: 'pulsa', iconTitle: 'Pulsa &\n Data', iconSize: 25),
+                    ServiceCardIcon(iconName: 'dana_kaget', iconTitle: 'DANA Kaget', iconSize: 25),
+                    ServiceCardIcon(iconName: 'view_all', iconTitle: 'View All', iconSize: 35),
+                  ],
+                )
               ],
             ),
           )

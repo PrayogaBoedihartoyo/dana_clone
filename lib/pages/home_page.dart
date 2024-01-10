@@ -40,6 +40,7 @@ class HomePage extends StatelessWidget {
                   color: DanaCloneTheme.mainBlue,
                 ),
                 const Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     HeaderWidget(),
                     ServiceCardWidget(),
