@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../utils/utils.dart';
 import '../widget/appbar/app_bar_title_widget.dart';
+import '../widget/feed_card/feed_card_widget.dart';
 import '../widget/gap.dart';
 import '../widget/header/header_widget.dart';
 
@@ -48,7 +49,8 @@ class HomePage extends StatelessWidget {
                 )
               ],
             ),
-          )
+          ),
+          const FeedCardWidget(),
         ],
       ),
     );
