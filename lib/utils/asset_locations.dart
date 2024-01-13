@@ -5,4 +5,9 @@ class AssetLocations {
     final location = AssetImage('assets/icons/$iconName.png');
     return location;
   }
+
+  static ImageProvider imageLocation(String imageName) {
+    final location = AssetImage('assets/images/$imageName.png');
+    return location;
+  }
 }

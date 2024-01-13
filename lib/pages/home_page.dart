@@ -6,6 +6,7 @@ import '../widget/appbar/app_bar_title_widget.dart';
 import '../widget/feed_card/feed_card_widget.dart';
 import '../widget/gap.dart';
 import '../widget/header/header_widget.dart';
+import '../widget/image_loop_slider/image_loop_slider.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -51,6 +52,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           const FeedCardWidget(),
+          const ImageLoopSliderWidget(),
         ],
       ),
     );
