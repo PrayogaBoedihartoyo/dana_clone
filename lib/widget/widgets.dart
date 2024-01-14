@@ -8,3 +8,5 @@ export 'service_card/service_card_icon.dart';
 export 'feed_card/feed_card_widget.dart';
 export 'feed_card/tile_with_animation.dart';
 export 'image_loop_slider/image_loop_slider.dart';
+export 'whats_new_card/whats_new_card_widget.dart';
+export 'whats_new_card/tile_whats_new.dart';
