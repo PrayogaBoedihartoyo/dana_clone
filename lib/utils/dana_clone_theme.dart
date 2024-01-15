@@ -19,30 +19,30 @@ class DanaCloneTheme {
   // Primary Text Theme
   static TextTheme primaryTextTheme = TextTheme(
     // Service: DANA Deals, Feed, Whats New, Nearaby: please allow
-    headline4: GoogleFonts.notoSans(
+    headlineMedium: GoogleFonts.notoSans(
       color: black,
       fontSize: 20,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.3,
     ),
     // Appbar: 0,
-    headline5: GoogleFonts.notoSans(
+    headlineSmall: GoogleFonts.notoSans(
       fontSize: 20,
       fontWeight: FontWeight.w500,
     ),
     // HeaderWidget: Scan
-    subtitle1: GoogleFonts.notoSans(
+    titleMedium: GoogleFonts.notoSans(
       fontSize: 15,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.2,
     ),
     // Service Card: SERBU!
-    button: GoogleFonts.notoSans(
+    labelLarge: GoogleFonts.notoSans(
       fontSize: 14,
       fontWeight: FontWeight.w500,
     ),
     // AppBar: Rp,
-    caption: GoogleFonts.notoSans(
+    bodySmall: GoogleFonts.notoSans(
       fontSize: 13,
       fontWeight: FontWeight.w500,
       letterSpacing: 0.4,
@@ -53,14 +53,14 @@ class DanaCloneTheme {
   // Secondary Text Theme
   static TextTheme textTheme = TextTheme(
     // Promo Voucher
-    headline2: GoogleFonts.openSans(
+    displayMedium: GoogleFonts.openSans(
       fontSize: 19,
       fontWeight: FontWeight.w700,
       letterSpacing: -0.1,
       color: white,
     ),
     // DANA PROTECTION
-    headline3: GoogleFonts.prompt(
+    displaySmall: GoogleFonts.prompt(
       fontSize: 15,
       fontWeight: FontWeight.w700,
       letterSpacing: 0.6,
@@ -68,59 +68,59 @@ class DanaCloneTheme {
       height: 1,
     ),
     // Nearby: Please allow
-    headline4: GoogleFonts.openSans(
+    headlineMedium: GoogleFonts.openSans(
       fontSize: 16,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.4,
       color: black,
     ),
     // Whats New: Pakai DANA,
-    headline5: GoogleFonts.openSans(
+    headlineSmall: GoogleFonts.openSans(
       fontSize: 16,
       color: DanaCloneTheme.black,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.1,
     ),
     // Feed: Your Friend,
-    headline6: GoogleFonts.roboto(
+    titleLarge: GoogleFonts.roboto(
       fontSize: 16,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.3,
       color: secondaryBlack,
     ),
     // Subheader: Jajan,
-    subtitle1: GoogleFonts.roboto(
+    titleMedium: GoogleFonts.roboto(
       fontSize: 16,
       fontWeight: FontWeight.w500,
       color: orange,
     ),
     // Service: Electricity, MORE FOR YOU: Choose,
-    subtitle2: GoogleFonts.roboto(
+    titleSmall: GoogleFonts.roboto(
       fontSize: 15,
       color: secondaryBlack,
     ),
     // Whats New: Belanja,
-    bodyText1: GoogleFonts.roboto(
+    bodyLarge: GoogleFonts.roboto(
       fontSize: 16,
       fontWeight: FontWeight.w400,
       color: grey,
       letterSpacing: -0.3,
     ),
     // Feed: find out, Find Dana
-    bodyText2: GoogleFonts.roboto(
+    bodyMedium: GoogleFonts.roboto(
       fontSize: 13,
       fontWeight: FontWeight.w400,
       color: secondaryBlack,
     ),
     // Outline Button, Navbar
-    button: GoogleFonts.openSans(
+    labelLarge: GoogleFonts.openSans(
       fontSize: 15,
       fontWeight: FontWeight.w600,
       letterSpacing: 0.2,
       color: mainBlue,
     ),
     // Money-Back
-    caption: GoogleFonts.openSans(
+    bodySmall: GoogleFonts.openSans(
       fontSize: 12,
       fontWeight: FontWeight.w400,
       letterSpacing: 0.2,
@@ -150,7 +150,7 @@ class DanaCloneTheme {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5),
           ),
-          textStyle: textTheme.button,
+          textStyle: textTheme.labelLarge,
         ),
       ),
     );

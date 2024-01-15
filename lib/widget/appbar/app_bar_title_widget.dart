@@ -20,12 +20,12 @@ class AppBarTitleWidget extends StatelessWidget {
           const Gap(h: 8),
           Text(
             'Rp',
-            style: primaryTextTheme.caption,
+            style: primaryTextTheme.bodySmall,
           ),
           const Gap(h: 8),
           Text(
             '0',
-            style: primaryTextTheme.headline5,
+            style: primaryTextTheme.headlineSmall,
           ),
           const Gap(),
           const SizedBox(height: 30, child: AddCardWidgetAnimation()),

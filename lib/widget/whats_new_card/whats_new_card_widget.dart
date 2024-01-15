@@ -33,11 +33,11 @@ class WhatsNewCardWidget extends StatelessWidget {
                   children: [
                     Text(
                       'Whats New',
-                      style: primaryTextTheme.headline4,
+                      style: primaryTextTheme.headlineMedium,
                     ),
                     Text(
                       'The best of the best new of the week!',
-                      style: textTheme.bodyText2,
+                      style: textTheme.bodyMedium,
                     )
                   ],
                 ),

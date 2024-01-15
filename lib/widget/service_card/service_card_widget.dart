@@ -33,14 +33,14 @@ class ServiceCardWidget extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Dana Deals', style: primaryTextTheme.headline4),
-                    Text('Jajan Hemat s/d 43%', style: textTheme.subtitle1),
+                    Text('Dana Deals', style: primaryTextTheme.headlineMedium),
+                    Text('Jajan Hemat s/d 43%', style: textTheme.titleMedium),
                   ],
                 ),
                 const Spacer(),
                 ElevatedButton(
                     onPressed: () {},
-                    child: Text('Serbu', style: primaryTextTheme.button)),
+                    child: Text('Serbu', style: primaryTextTheme.labelLarge)),
               ],
             ),
           ),

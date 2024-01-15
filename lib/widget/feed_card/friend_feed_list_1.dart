@@ -21,27 +21,27 @@ class FriendFeedList1 extends StatelessWidget {
           child: RichText(
             text: TextSpan(
               text: 'Your Friend',
-              style: textTheme.headline6!.copyWith(
+              style: textTheme.titleLarge!.copyWith(
                 fontWeight: FontWeight.w600,
               ),
               children: [
                 TextSpan(
                   text: ' just received',
-                  style: textTheme.headline6,
+                  style: textTheme.titleLarge,
                 ),
                 TextSpan(
                   text: ' Cashback',
-                  style: textTheme.headline6!.copyWith(
+                  style: textTheme.titleLarge!.copyWith(
                     fontWeight: FontWeight.w600,
                   ),
                 ),
                 TextSpan(
                   text: ' from',
-                  style: textTheme.headline6,
+                  style: textTheme.titleLarge,
                 ),
                 TextSpan(
                   text: ' Cashback',
-                  style: textTheme.headline6!.copyWith(
+                  style: textTheme.titleLarge!.copyWith(
                     fontWeight: FontWeight.w600,
                     color: DanaCloneTheme.orange,
                   ),

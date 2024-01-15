@@ -27,7 +27,7 @@ class ServiceCardIcon extends StatelessWidget {
         const Gap(v: 12),
         Text(
           iconTitle,
-          style: textTheme.subtitle2,
+          style: textTheme.titleSmall,
           textAlign: TextAlign.center,
         ),
       ]),

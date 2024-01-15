@@ -44,11 +44,11 @@ class _FeedCardWidgetState extends State<FeedCardWidget> {
                   children: [
                     Text(
                       'Feed',
-                      style: primaryTextTheme.headline4,
+                      style: primaryTextTheme.headlineMedium,
                     ),
                     Text(
                       'Find out what your friends up to!',
-                      style: textTheme.bodyText2,
+                      style: textTheme.bodyMedium,
                     )
                   ],
                 ),

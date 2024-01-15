@@ -32,11 +32,11 @@ class TileWhatsNew extends StatelessWidget {
             children: [
               Text(
                 headline,
-                style: textTheme.headline5,
+                style: textTheme.headlineSmall,
               ),
               Text(
                 bodyText,
-                style: textTheme.bodyText1,
+                style: textTheme.bodyLarge,
               )
             ],
           )

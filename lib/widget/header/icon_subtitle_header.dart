@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/asset_locations.dart';
@@ -24,7 +23,7 @@ class IconSubtitleHeader extends StatelessWidget {
         const SizedBox(height: 5),
         Text(
           iconSubtitle,
-          style: Theme.of(context).primaryTextTheme.subtitle1,
+          style: Theme.of(context).primaryTextTheme.titleMedium,
         ),
       ],
     );

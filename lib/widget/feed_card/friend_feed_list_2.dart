@@ -21,21 +21,21 @@ class FriendFeedList2 extends StatelessWidget {
           child: RichText(
             text: TextSpan(
               text: 'Your Friend',
-              style: textTheme.headline6!.copyWith(
+              style: textTheme.titleLarge!.copyWith(
                 fontWeight: FontWeight.w600,
               ),
               children: [
                 TextSpan(
                   text: ' just received Pulsa Voucher',
-                  style: textTheme.headline6,
+                  style: textTheme.titleLarge,
                 ),
                 TextSpan(
                   text: ' from',
-                  style: textTheme.headline6,
+                  style: textTheme.titleLarge,
                 ),
                 TextSpan(
                   text: ' DANA Surprize',
-                  style: textTheme.headline6!.copyWith(
+                  style: textTheme.titleLarge!.copyWith(
                     fontWeight: FontWeight.w600,
                     color: DanaCloneTheme.orange,
                   ),
