@@ -1,3 +1,4 @@
+import 'package:dana_clone/widget/more_for_you/more_for_you_card_widget.dart';
 import 'package:dana_clone/widget/nearby_card/nearby_card_widget.dart';
 import 'package:dana_clone/widget/service_card/service_card_widget.dart';
 import 'package:flutter/material.dart';
@@ -56,7 +57,8 @@ class HomePage extends StatelessWidget {
           const FeedCardWidget(),
           const ImageLoopSliderWidget(),
           const WhatsNewCardWidget(),
-          const NearbyCardWidget()
+          const NearbyCardWidget(),
+          const MoreForYouCardWidget()
         ],
       ),
     );
