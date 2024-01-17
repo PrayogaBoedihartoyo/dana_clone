@@ -12,3 +12,5 @@ export 'whats_new_card/whats_new_card_widget.dart';
 export 'whats_new_card/tile_whats_new.dart';
 export 'nearby_card/nearby_card_widget.dart';
 export 'more_for_you/more_for_you_card_widget.dart';
+export 'dana_protection_card/data_protection_card_widget.dart';
+export 'dana_protection_card/horizontal_caption_and_icon.dart';

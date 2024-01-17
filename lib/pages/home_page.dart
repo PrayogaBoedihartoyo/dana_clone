@@ -1,3 +1,4 @@
+import 'package:dana_clone/widget/dana_protection_card/data_protection_card_widget.dart';
 import 'package:dana_clone/widget/more_for_you/more_for_you_card_widget.dart';
 import 'package:dana_clone/widget/nearby_card/nearby_card_widget.dart';
 import 'package:dana_clone/widget/service_card/service_card_widget.dart';
@@ -58,7 +59,8 @@ class HomePage extends StatelessWidget {
           const ImageLoopSliderWidget(),
           const WhatsNewCardWidget(),
           const NearbyCardWidget(),
-          const MoreForYouCardWidget()
+          const MoreForYouCardWidget(),
+          const DataProtectionCardWidget()
         ],
       ),
     );
